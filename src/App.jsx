@@ -1,8 +1,9 @@
 import './App.css'
+import Portfolio from './pages/Portfolio'
 
 function App() {
   return (
-        <p>Testando</p>
+        <Portfolio/>
   )
 }
 
