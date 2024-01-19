@@ -1,9 +1,12 @@
 import './App.css'
-import Portfolio from './pages/Portfolio'
+// import Portfolio from './pages/Portfolio'
+import DetailsOfProject from './pages/DetailsOfProject'
 
 function App() {
   return (
-        <Portfolio/>
+        // <Portfolio/>
+        <DetailsOfProject/> 
+
   )
 }
 
