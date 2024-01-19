@@ -1,0 +1,26 @@
+.container {
+    width: 1140px;
+    height: 312px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.containerTitulo {
+    width: 133px;
+    height: 70px;
+    margin: auto;
+}
+
+.titulo {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.66px;
+    color: #F9F9F9;
+}
+
+.containerInfos {
+    width: 1140;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -3,19 +3,24 @@
     height: 584px;
     margin-top: 100px;
     margin-left: 150px;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .containerTitulo {
     width: 142px;
-    height: 42px;
+    height: 70px;
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #F9F9F9;
+    margin: auto;
+}
+
+.titulo {
     font-size: 32px;
     font-weight: 700;
     line-height: 41.66px;
+    color: #F9F9F9;
 }
 
 .containerProjetos {
@@ -23,4 +28,5 @@
     height: 542px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 45px;
 }
