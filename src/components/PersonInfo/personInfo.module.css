@@ -1,53 +1,53 @@
 .container {
-    width: 760px;
-    height: 130px;
-    margin-left: 340px;
-    margin-top: 100px;
+    width: 47.5rem;
+    height: 8.125rem;
+    margin-left: 21.25rem;
+    margin-top: 6.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .containerIconNome {
-    width: 94px;
-    height: 130px;
+    width: 5.875rem;
+    height: 8.125rem;
 }
 
 .containerIconEmail {
-    width: 167px;
-    height: 127px;   
+    width: 10.438rem;
+    height: 7.938rem;   
 }
 
 .containerIconGithub {
-    width: 94px;
-    height: 130px;   
+    width: 10.438rem;
+    height: 7.938rem;   
 }
 
 .containerIconPhone {
-    width: 130px;
-    height: 127px;   
+    width: 10.438rem;
+    height: 7.938rem;   
 }
 
 .emoji {
-    width: 62px;
-    height: 62px;
+    width: 3.875rem;
+    height: 3.875rem;
     border-radius: 100%;
-    border: 1px #333333 solid;
+    border: 0.063rem #333333 solid;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .titulo {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
-    line-height: 23.44px;
-    color: #F9F9F9;
+    line-height: 1.465rem;
+    color: var(--white-100);
 }
 
 .texto {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 20.83px;
-    color: #828282;
+    line-height: 1.302rem;
+    color: var(--dark-400);
 }

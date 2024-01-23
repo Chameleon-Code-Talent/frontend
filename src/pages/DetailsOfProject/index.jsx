@@ -2,7 +2,7 @@ import CarroselSlider from "../../components/CarroselSlider"
 import DescribeProject from "../../components/DescribeProject"
 import HeaderDetailsProject from "../../components/HeaderDetailsProject"
 import TechsUsed from "../../components/TechsUsed"
-import Footer from "../../components/Footer"
+// import Footer from "../../components/Footer"
 
 const DetailsOfProject = () => {
     return (
@@ -11,7 +11,7 @@ const DetailsOfProject = () => {
             <CarroselSlider/>
             <DescribeProject/>
             <TechsUsed/>
-            <Footer/>
+            
         </>
     )
 }

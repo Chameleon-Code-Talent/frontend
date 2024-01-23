@@ -1,29 +1,27 @@
 .container {
-    width: 1140px;
-    height: 222px;
-    margin-left: 150px;
-    margin-top: 100px;
-    /* display: flex;
-    flex-direction: column; */
+    width: 71.25rem;
+    height: 13.875rem;
+    margin-left: 9.375rem;
+    margin-top: 6.25rem;
 }
 
 .containerTitulo {
-    width: 196px;
-    height: 42px;
+    width: 12rem;
+    height: 2.625rem;
     margin: auto;
 }
 
 .titulo {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 41.66px;
-    color: #F9F9F9;
+    line-height: 2.604rem;
+    color: var(--white-100);
 }
 
 .containerInfos {
-    width: 1140;
-    height: 150px;
-    margin-top: 40px;
+    width: 71.25rem;
+    height: 9.375rem;
+    margin-top: 2.5rem;
     display: flex;
     justify-content: space-between;
 }

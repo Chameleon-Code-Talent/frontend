@@ -1,8 +1,8 @@
 .container {
-    width: 1140px;
-    height: 50px;
-    margin-top: 32px;
-    margin-left: 150px;
+    width: 71.25rem;
+    height: 3.125rem;
+    margin-top: 2rem;
+    margin-left: 9.375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,14 +11,14 @@
 .links ul {
     display: flex;
     text-decoration: none;
-    gap: 70px;
+    gap: 4.375rem;
     list-style: none;
 }
 
 a {
-    color: #F9F9F9;
+    color: var(--white-100);
     text-decoration: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
 }

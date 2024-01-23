@@ -1,65 +1,65 @@
 .container {
-    width: 1140px;
-    height: 254px;
-    margin-top: 210px;
-    margin-left: 150px;
+    width: 71.25rem;
+    height: 15.875rem;
+    margin-top: 13.125rem;
+    margin-left: 9.375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .informacoes {
-    width: 337px;
-    height: 206.62px;
+    width: 21.063rem;
+    height: 12.914rem;
 }
 
 .nome {
-    width: 221px;
-    height: 94px;
+    width: 13.813rem;
+    height: 5.875rem;
 }
 
 .nome h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
-    line-height: 46.87px;
-    color: #F9F9F9;
+    line-height: 2.929rem;
+    color: var(--white-100);
 }
 
 p {
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
-    line-height: 23.44px;
-    color: #828282;
-    width: 337px;
-    height: 22.96px;
-    margin-top: 10px;
+    line-height: 1.465rem;
+    color: var(--dark-400);
+    width: 21.063rem;
+    height: 1.435rem;
+    margin-top: 0.625rem;
 }
 
 .botoes {
-    margin-top: 35px;
+    margin-top: 2.188rem;
 }
 
 .botaoDownload {
-    width: 143px;
-    height: 41.92px;
-    background-color: #00DF5E;
-    color: #171717;
-    font-size: 14px;
+    width: 8.938rem;
+    height: 2.62rem;
+    background-color: var(--green-color);
+    color: var(--dark-100);
+    font-size: 0.875rem;
     font-weight: 500;
-    line-height: 18.23px;
-    border-radius: 8px;
-    margin-right: 15px;
+    line-height: 1.139rem;
+    border-radius: 0.5rem;
+    margin-right: 0.938rem;
     cursor: pointer;
 }
 
 .botaoContato {
-    width: 143px;
-    height: 41.92px;
-    background-color: #171717;
-    color: #F9F9F9;
-    font-size: 14px;
+    width: 8.938rem;
+    height: 2.62rem;
+    background-color: var(--dark-100);
+    color: var(--white-100);
+    font-size: 0.875rem;
     font-weight: 500;
-    line-height: 18.23px;
-    border-radius: 8px;
+    line-height: 1.139rem;
+    border-radius: 0.5rem;
     cursor: pointer;
 }
