@@ -1,0 +1,17 @@
+section {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.containerLogin {
+    width: 34.375rem;
+    height: 60.625rem;
+    margin-top: 4rem;
+}
+
+.containerVantagens {
+    width: 34.375rem;
+    height: 60.625rem;
+    margin-top: 4rem;
+}

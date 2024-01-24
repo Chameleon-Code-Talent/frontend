@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.voltar {
+    width: 7.375rem;
+    height: 1.938rem;
+    display: flex;
+    justify-content: center;  
+}
+
+.voltar p {
+    color: var(--green-color);
+    font-size: 1.5rem;
+    line-height: 1.953rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFormulario {
+    width: 34.375rem;
+    height: 37.375rem;
+    
+    border-radius: 0.313rem;
+    border: 0.063rem var(--green-color) solid;
+}
+
+.containerFormulario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFormulario img {
+    margin-top: -2rem;
+}
+
+.containerCadastrar {
+    width: 34.375rem;
+    height: 16.25rem;
+    background-color: var(--green-color);
+    border-radius: 0.313rem;
+    border: 0.063rem var(--white-100) solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.containerCadastrar p {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.929rem;
+    color: var(--white-100);
+    text-align: center;
+}
+
+.botaoCadastrar {
+    width: 30rem;
+    height: 3.75rem;
+    border: 0.063rem var(--white-100) solid;
+    border-radius: 0.313rem;
+    background-color: var(--dark-100);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoCadastrar p {
+    font-size: 1rem;
+    line-height: 1.302rem;
+    font-weight: 500;
+    margin: 0;
+    margin-right: 10px;
+}
