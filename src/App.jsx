@@ -1,14 +1,9 @@
 // import './App.css'
-import Portfolio from './pages/Portfolio'
-// import DetailsOfProject from './pages/DetailsOfProject'
-// import Footer from './components/Footer'
+import AppRoutes from '../routes'
 
 function App() {
   return (
-        // <Portfolio/>
-        <>
-        <Portfolio/>
-        </>
+        <AppRoutes/>
   )
 }
 
