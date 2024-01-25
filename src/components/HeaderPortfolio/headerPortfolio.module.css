@@ -1,11 +1,10 @@
 .container {
     width: 71.25rem;
     height: 3.125rem;
-    margin-top: 2rem;
-    margin-left: 9.375rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 2rem auto 0 auto;
 }
 
 .links ul {
@@ -19,6 +18,6 @@ a {
     color: var(--white-100);
     text-decoration: none;
     cursor: pointer;
-    font-size: 1.125rem;
+    font-size: var(--default);
     font-weight: 400;
 }
