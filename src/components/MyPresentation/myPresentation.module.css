@@ -1,0 +1,66 @@
+.container {
+    width: 71.25rem;
+    height: 15.875rem;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.informacoes {
+    width: 21.063rem;
+    height: 12.914rem;
+}
+
+.nome {
+    width: 13.813rem;
+    height: 5.875rem;
+}
+
+.nome h1 {
+    font-size: var(--main-title);
+    font-weight: 700;
+    line-height: 2.929rem;
+    color: var(--white-100);
+}
+
+p {
+    font-size: var(--default);
+    font-weight: 500;
+    line-height: 1.465rem;
+    color: var(--dark-400);
+    width: 21.063rem;
+    height: 1.435rem;
+    margin-top: 1rem;
+}
+
+.botoes {
+    margin-top: 2rem;
+}
+
+.botaoDownload {
+    width: 8.938rem;
+    height: 2.62rem;
+    background-color: var(--green-color);
+    color: var(--dark-100);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.139rem;
+    border-radius: 0.313rem;
+    margin-right: 0.938rem;
+    cursor: pointer;
+    border: 0px;
+}
+
+.botaoContato {
+    width: 8.938rem;
+    height: 2.62rem;
+    background-color: var(--dark-100);
+    color: var(--white-100);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.139rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    border: 1px solid var(--dark-300);
+}

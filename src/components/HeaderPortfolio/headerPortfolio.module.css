@@ -1,0 +1,23 @@
+.container {
+    width: 71.25rem;
+    height: 3.125rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto 0 auto;
+}
+
+.links ul {
+    display: flex;
+    text-decoration: none;
+    gap: 4.375rem;
+    list-style: none;
+}
+
+a {
+    color: var(--white-100);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: var(--default);
+    font-weight: 400;
+}
