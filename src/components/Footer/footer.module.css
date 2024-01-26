@@ -1,35 +1,35 @@
 .container {
-    width: 90rem;
-    height: 7.5rem;
-    margin-top: 8rem;
-    border-top: 0.063rem var(--green-color) solid;
-    background-color: var(--dark-200);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 90rem;
+  height: 7.5rem;
+  margin-top: 8rem;
+  border-top: 0.063rem var(--green-color) solid;
+  background-color: var(--dark-200);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerNome {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .texto {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.302rem;
-    color: var(--white-100);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.302rem;
+  color: var(--white-100);
 }
 
 .nome {
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 1.302rem;
-    color: var(--green-color);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.302rem;
+  color: var(--green-color);
 }
 
 .containerChameleon {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }

@@ -1,65 +1,65 @@
 .container {
-    width: 71.25rem;
-    height: 15.875rem;
-    margin-top: 13.125rem;
-    margin-left: 9.375rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 71.25rem;
+  height: 15.875rem;
+  margin-top: 13.125rem;
+  margin-left: 9.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .informacoes {
-    width: 21.063rem;
-    height: 12.914rem;
+  width: 21.063rem;
+  height: 12.914rem;
 }
 
 .nome {
-    width: 13.813rem;
-    height: 5.875rem;
+  width: 13.813rem;
+  height: 5.875rem;
 }
 
 .nome h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: 2.929rem;
-    color: var(--white-100);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.929rem;
+  color: var(--white-100);
 }
 
 p {
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1.465rem;
-    color: var(--dark-400);
-    width: 21.063rem;
-    height: 1.435rem;
-    margin-top: 0.625rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.465rem;
+  color: var(--dark-400);
+  width: 21.063rem;
+  height: 1.435rem;
+  margin-top: 0.625rem;
 }
 
 .botoes {
-    margin-top: 2.188rem;
+  margin-top: 2.188rem;
 }
 
 .botaoDownload {
-    width: 8.938rem;
-    height: 2.62rem;
-    background-color: var(--green-color);
-    color: var(--dark-100);
-    font-size: 0.875rem;
-    font-weight: 500;
-    line-height: 1.139rem;
-    border-radius: 0.5rem;
-    margin-right: 0.938rem;
-    cursor: pointer;
+  width: 8.938rem;
+  height: 2.62rem;
+  background-color: var(--green-color);
+  color: var(--dark-100);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.139rem;
+  border-radius: 0.5rem;
+  margin-right: 0.938rem;
+  cursor: pointer;
 }
 
 .botaoContato {
-    width: 8.938rem;
-    height: 2.62rem;
-    background-color: var(--dark-100);
-    color: var(--white-100);
-    font-size: 0.875rem;
-    font-weight: 500;
-    line-height: 1.139rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
+  width: 8.938rem;
+  height: 2.62rem;
+  background-color: var(--dark-100);
+  color: var(--white-100);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.139rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }

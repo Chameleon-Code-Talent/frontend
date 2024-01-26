@@ -1,10 +1,11 @@
-// import './App.css'
-import AppRoutes from '../routes'
+import AppRoutes from "../routes";
 
 function App() {
-  return (
-    <AppRoutes/>
-  )
+  return <AppRoutes />;
 }
 
-export default App
+function teste() {
+  console.log("oioioi");
+}
+
+export default App;

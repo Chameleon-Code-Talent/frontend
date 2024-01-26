@@ -1,26 +1,26 @@
 .container {
-    width: 1140px;
-    height: 224px;
-    margin: auto;
-    margin-top: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 1140px;
+  height: 224px;
+  margin: auto;
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .containerTitulo {
-    width: 325px;
-    height: 42px;
+  width: 325px;
+  height: 42px;
 }
 
 .titulo {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 41.66px;
-    color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 41.66px;
+  color: #ffffff;
 }
 
 .containerIcons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }

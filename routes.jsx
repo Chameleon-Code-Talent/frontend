@@ -8,18 +8,18 @@ import NotFound from "./src/pages/NotFound";
 import RecoverPassword from "./src/pages/RecoverPassword";
 
 const AppRoutes = () => {
-    return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/meu-portfolio" element={<Portfolio/>} />
-                <Route path="/detalhes-projeto" element={<DetailsOfProject/>} />
-                <Route path="/login" element={<SingIn/>} />
-                <Route path="/nao-encontrada" element={<NotFound/>} />
-                <Route path="/recuperar-senha" element={<RecoverPassword/>} />
-            </Routes>
-        </BrowserRouter>
-    )
-}
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/meu-portfolio" element={<Portfolio />} />
+        <Route path="/detalhes-projeto" element={<DetailsOfProject />} />
+        <Route path="/login" element={<SingIn />} />
+        <Route path="/nao-encontrada" element={<NotFound />} />
+        <Route path="/recuperar-senha" element={<RecoverPassword />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
-export default AppRoutes
+export default AppRoutes;

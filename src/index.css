@@ -1,12 +1,12 @@
 :root {
-  --green-color: #00DF5E;
+  --green-color: #00df5e;
 
   --dark-100: #171717;
   --dark-200: #212121;
   --dark-300: #333333;
   --dark-400: #828282;
-  
-  --white-100: #F9F9F9;
+
+  --white-100: #f9f9f9;
 }
 
 * {
@@ -21,5 +21,5 @@ body {
   max-width: 1440px;
   margin: 0 auto;
   font-size: 1rem;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }

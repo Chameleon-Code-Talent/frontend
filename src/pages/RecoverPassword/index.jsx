@@ -4,20 +4,20 @@ import FormRecoverPassword from "../../components/FormRecoverPassword";
 import styles from "./recoverPassword.module.css";
 
 const RecoverPassword = () => {
-    return (
-        <div>
-            <section>
-                <div className={styles.containerLogin}>
-                    <FormRecoverPassword/>
-                </div>
-                <div className={styles.containerVantagens}>
-                    <CardBenefits />
-                </div>
-            </section>
-
-            <FooterDefault />
+  return (
+    <div>
+      <section>
+        <div className={styles.containerLogin}>
+          <FormRecoverPassword />
         </div>
-    )
-}
+        <div className={styles.containerVantagens}>
+          <CardBenefits />
+        </div>
+      </section>
 
-export default RecoverPassword
+      <FooterDefault />
+    </div>
+  );
+};
+
+export default RecoverPassword;

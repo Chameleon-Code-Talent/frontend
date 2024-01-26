@@ -1,53 +1,53 @@
 .container {
-    width: 47.5rem;
-    height: 8.125rem;
-    margin-left: 21.25rem;
-    margin-top: 6.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 47.5rem;
+  height: 8.125rem;
+  margin-left: 21.25rem;
+  margin-top: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .containerIconNome {
-    width: 5.875rem;
-    height: 8.125rem;
+  width: 5.875rem;
+  height: 8.125rem;
 }
 
 .containerIconEmail {
-    width: 10.438rem;
-    height: 7.938rem;   
+  width: 10.438rem;
+  height: 7.938rem;
 }
 
 .containerIconGithub {
-    width: 10.438rem;
-    height: 7.938rem;   
+  width: 10.438rem;
+  height: 7.938rem;
 }
 
 .containerIconPhone {
-    width: 10.438rem;
-    height: 7.938rem;   
+  width: 10.438rem;
+  height: 7.938rem;
 }
 
 .emoji {
-    width: 3.875rem;
-    height: 3.875rem;
-    border-radius: 100%;
-    border: 0.063rem #333333 solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 3.875rem;
+  height: 3.875rem;
+  border-radius: 100%;
+  border: 0.063rem #333333 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titulo {
-    font-size: 1.125rem;
-    font-weight: 700;
-    line-height: 1.465rem;
-    color: var(--white-100);
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.465rem;
+  color: var(--white-100);
 }
 
 .texto {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.302rem;
-    color: var(--dark-400);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.302rem;
+  color: var(--dark-400);
 }

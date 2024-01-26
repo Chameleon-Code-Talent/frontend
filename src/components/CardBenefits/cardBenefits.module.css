@@ -1,22 +1,22 @@
 .container {
-    display: flex;
-    flex-direction: column;
- }
+  display: flex;
+  flex-direction: column;
+}
 
 .containerTitulo {
-    width: 34.375rem;
-    height: 5.875rem;
+  width: 34.375rem;
+  height: 5.875rem;
 }
 
 .containerTitulo h1 {
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: 2.929rem;
-    color: var(--white-100);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 2.929rem;
+  color: var(--white-100);
 }
 
 .containerGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875rem;
 }

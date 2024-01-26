@@ -1,32 +1,32 @@
 .container {
-    width: 16.25rem;
-    height: 16.25rem;
-    border: 0.063rem var(--green-color) solid;
-    border-radius: 0.313rem;
-    background-color: var(--white-100);
+  width: 16.25rem;
+  height: 16.25rem;
+  border: 0.063rem var(--green-color) solid;
+  border-radius: 0.313rem;
+  background-color: var(--white-100);
 }
 
 .containerImg {
-    width: 3.125rem;
-    margin-left: 0.938rem;
-    margin-top: 0.938rem;
+  width: 3.125rem;
+  margin-left: 0.938rem;
+  margin-top: 0.938rem;
 }
 
 .containerTitulo {
-    margin-left: 0.938rem;
-    margin-top: 0.938rem;
+  margin-left: 0.938rem;
+  margin-top: 0.938rem;
 }
 
 .containerTitulo p {
-    font-size: 1.125rem;
-    line-height: 1.465rem;
-    font-weight: 700;
-    color: var(--green-color);
+  font-size: 1.125rem;
+  line-height: 1.465rem;
+  font-weight: 700;
+  color: var(--green-color);
 }
 
 .containerTexto {
-    width: 14.25rem;
-    height: 5.75rem;
-    margin-left: 0.938rem;
-    margin-top: 0.938rem;
+  width: 14.25rem;
+  height: 5.75rem;
+  margin-left: 0.938rem;
+  margin-top: 0.938rem;
 }

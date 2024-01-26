@@ -1,31 +1,31 @@
 .container {
-    width: 90rem;
-    height: 5.625rem;
-    margin-top: 4rem;
-    border-top: 0.063rem var(--green-color) solid;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 90rem;
+  height: 5.625rem;
+  margin-top: 4rem;
+  border-top: 0.063rem var(--green-color) solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .containerCCT {
-    width: 45rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.938rem;
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.938rem;
 }
 
 .containerCCT h4 {
-    color: var(--white-100)
+  color: var(--white-100);
 }
 
 .containerTermos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .containerTermos p {
-   color: var(--white-100)
+  color: var(--white-100);
 }

@@ -1,13 +1,13 @@
 .container {
-    width: 1140px;
-    height: 50px;
-    margin: auto;
-    margin-top: 32px;
-    display: flex;
-    justify-content: space-between;
+  width: 1140px;
+  height: 50px;
+  margin: auto;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .containerImg {
-    width: 38.36px;
-    height: 30.64px;
+  width: 38.36px;
+  height: 30.64px;
 }
