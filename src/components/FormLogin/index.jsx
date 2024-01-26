@@ -7,15 +7,24 @@ import { AiOutlineUser } from "react-icons/ai"
 import IconCasa from "../../assets/icon-casa.svg"
 import IconCamaleaoForm from "../../assets/camaleaoForm.svg"
 
-// import { useForm } from "react-hook-form"
+import { useForm } from "react-hook-form"
+import { z } from "zod"
+import { zodResolver } from "@hookform/resolvers/zod"
+
+	const fieldsOfInputsSchema = z.object({
+		email: z.string().nonempty('O e-mail é obrigatório').email('Formato de e-mail inválido'),
+		password: z.string().nonempty('A senha é obrigatória')
+	})
 
 const FormLogin = () => {
 
-  // const { register, handleSubmit, errors } = useForm()
+  const { register, handleSubmit, formState: { errors } } = useForm({
+		resolver: zodResolver(fieldsOfInputsSchema)
+	})
 
-  // const onSubmit = (data) => {
-  //   console.log(data); // Aqui você pode manipular os dados do formulário
-  // };
+  const onSubmit = (data) => {
+    console.log(data); // Aqui você pode manipular os dados do formulário
+  };
 
   return (
     <section className={styles.container}>
@@ -36,13 +45,15 @@ const FormLogin = () => {
             <h2>Acesse a sua conta</h2>
           </div>
 
-          <form className={styles.containerInputs}>
+          <form onSubmit={handleSubmit(onSubmit)}  className={styles.containerInputs}>
             <div className={styles.containerLabelAndInput}>
               <label>E-mail</label>
               <input 
                 type="email" 
                 placeholder="Digite o seu e-mail"
+                {...register("email", { required: true })}
               />
+              {errors.email && <span>{errors.email.message}</span>}
             </div>
 
             <div className={styles.containerLabelAndInput}>
@@ -50,7 +61,9 @@ const FormLogin = () => {
               <input 
                 type="password" 
                 placeholder="Digite a sua senha"
+                {...register("password", { required: true })}
               />
+              {errors.password && <span>{errors.password.message}</span>}
             </div>
 
             <div className={styles.containerEsqueceuSenha}>

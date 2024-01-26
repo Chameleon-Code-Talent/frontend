@@ -73,6 +73,7 @@
     border-radius: 0.375rem;
     background-color: transparent;
     margin-bottom: 1rem;
+    color: var(--white-100);
 }
 
 .containerLabelAndInput input::placeholder {
@@ -81,6 +82,10 @@
     font-weight: 500;
     line-height: 1.302rem;
     padding: 1rem;
+}
+
+.containerLabelAndInput span {
+    color: #F03D3D;
 }
 
 .containerEsqueceuSenha p {
