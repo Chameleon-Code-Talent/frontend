@@ -7,6 +7,12 @@
   --dark-400: #828282;
 
   --white-100: #f9f9f9;
+
+  --default: 1rem;
+  --main-title: 2.25rem;
+  --subtitle: 2rem;
+  --project-title: 1.125rem;
+  --project-subtitle: 0.875rem;
 }
 
 * {
