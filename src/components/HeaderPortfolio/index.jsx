@@ -3,9 +3,11 @@ import logoCamaleao from "../../assets/logoCamaleao.svg";
 
 const HeaderPortfolio = () => {
   return (
-    <div className={styles.container}>
+    <nav className={styles.container}>
       <div className="logo">
-        <img src={logoCamaleao} alt="Logotipo da empresa camaleao" />
+        <a href="#link-portfolio">
+          <img src={logoCamaleao} alt="Logotipo da empresa camaleao" />
+        </a>
       </div>
 
       <div className={styles.links}>
@@ -24,7 +26,7 @@ const HeaderPortfolio = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
