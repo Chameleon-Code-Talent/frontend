@@ -5,7 +5,7 @@ const MyProjects = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerTitulo}>
-        <h3 className={styles.titulo}>Projetos</h3>
+        <h2 className={styles.titulo}>Projetos</h2>
       </div>
       <div className={styles.containerProjetos}>
         <CardProject />

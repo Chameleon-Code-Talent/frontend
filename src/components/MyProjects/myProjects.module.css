@@ -1,32 +1,21 @@
 .container {
-  width: 71.25rem;
-  height: 36.5rem;
-  margin-top: 6.25rem;
-  margin-left: 9.375rem;
-  justify-content: center;
-  align-items: center;
+  margin-top: 8rem;
 }
 
 .containerTitulo {
-  width: 8.875rem;
-  height: 4.375rem;
-  display: flex;
-  justify-content: center;
   text-align: center;
-  margin: auto;
+  margin-bottom: 2rem;
 }
 
 .titulo {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 2.604rem;
   color: var(--white-100);
 }
 
 .containerProjetos {
-  width: 71.25rem;
-  height: 33.875rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2.813rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 2rem;
 }
