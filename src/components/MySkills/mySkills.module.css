@@ -1,27 +1,19 @@
 .container {
-  width: 71.25rem;
-  height: 13.875rem;
-  margin-left: 9.375rem;
-  margin-top: 6.25rem;
+  margin-top: 8rem;
 }
 
 .containerTitulo {
-  width: 12rem;
-  height: 2.625rem;
-  margin: auto;
+  text-align: center;
 }
 
 .titulo {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 2.604rem;
   color: var(--white-100);
+  margin-bottom: 2rem;
 }
 
 .containerInfos {
-  width: 71.25rem;
-  height: 9.375rem;
-  margin-top: 2.5rem;
   display: flex;
   justify-content: space-between;
 }
