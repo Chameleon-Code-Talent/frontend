@@ -1,23 +1,22 @@
 .container {
   width: 350px;
   height: 240px;
-  background-color: #333333;
-  border: 0 0 0 1px solid #00df5e;
+  background-color: var(--dark-200);
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  border-top: 1px solid var(--dark-300);
+  border-left: 1px solid var(--dark-300);
+  border-right: 1px solid var(--dark-300);
+  border-bottom: 5px solid var(--green-color);
+  padding: 1.875rem;
 }
 
 .containerImg {
-  display: flex;
-  justify-content: center;
-  width: 100px;
+  margin-bottom: 2.5rem;
 }
 
-.containerTexto {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 200px;
+.service {
+  color: var(--dark-400);
+  font-size: 2rem;
+  font-weight: 500;
+  width: 7.875rem;
 }

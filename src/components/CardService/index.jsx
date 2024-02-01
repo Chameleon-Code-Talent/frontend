@@ -7,10 +7,7 @@ const CardService = ({ icon, textoServico }) => {
       <div className={styles.containerImg}>
         <img src={icon} alt="icone do servico" />
       </div>
-
-      <div className={styles.containerTexto}>
-        <p className={styles.texto}>{textoServico}</p>
-      </div>
+      <h3 className={styles.service}>{textoServico}</h3>
     </div>
   );
 };
